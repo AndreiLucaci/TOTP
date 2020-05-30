@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.Web", "TOTP.Web\TOTP.Web.csproj", "{15BAAC43-4D43-458E-9B5E-17FF454F3C46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.Engine", "TOTP.Engine\TOTP.Engine.csproj", "{9464B791-0B77-4825-9CE6-44086B2E9104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.Common", "TOTP.Common\TOTP.Common.csproj", "{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{15BAAC43-4D43-458E-9B5E-17FF454F3C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15BAAC43-4D43-458E-9B5E-17FF454F3C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15BAAC43-4D43-458E-9B5E-17FF454F3C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9464B791-0B77-4825-9CE6-44086B2E9104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9464B791-0B77-4825-9CE6-44086B2E9104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9464B791-0B77-4825-9CE6-44086B2E9104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9464B791-0B77-4825-9CE6-44086B2E9104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.Web", "TOTP.Web\TOTP.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.Engine", "TOTP.Engine\TOTP.Engine.csproj", "{9464B791-0B77-4825-9CE6-44086B2E9104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.Models", "TOTP.Models\TOTP.Models.csproj", "{8BFAB5D7-EF8D-414C-A2D3-A2A058A77BD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.Common", "TOTP.Common\TOTP.Common.csproj", "{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{9464B791-0B77-4825-9CE6-44086B2E9104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9464B791-0B77-4825-9CE6-44086B2E9104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9464B791-0B77-4825-9CE6-44086B2E9104}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BFAB5D7-EF8D-414C-A2D3-A2A058A77BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BFAB5D7-EF8D-414C-A2D3-A2A058A77BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BFAB5D7-EF8D-414C-A2D3-A2A058A77BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BFAB5D7-EF8D-414C-A2D3-A2A058A77BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22E6B8F-CE42-4D11-B3DF-832C19480FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

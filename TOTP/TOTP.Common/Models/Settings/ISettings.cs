@@ -1,4 +1,4 @@
-﻿namespace TOTP.Models.Settings
+﻿namespace TOTP.Common.Models.Settings
 {
 	public interface ISettings
 	{

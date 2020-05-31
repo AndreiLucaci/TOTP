@@ -7,7 +7,7 @@ using TOTP.Web.ViewModels;
 namespace TOTP.Web.Controllers
 {
 	[ApiController]
-	[Route("[controller]")]
+	[Route("api/[controller]")]
 	// ReSharper disable InconsistentNaming
 	public class OTPController : ControllerBase
 	{

@@ -1,5 +1,5 @@
 {
-  "name": "totp.web",
+  "name": "totp",
   "version": "0.1.0",
   "private": true,
   "resolutions": {

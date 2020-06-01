@@ -1,4 +1,4 @@
-# TOTP
+# TOTP - a time based OTP generator
 This is an implementation of OTP using a TOTP algorithm
 
 ## DEMO:

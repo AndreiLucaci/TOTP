@@ -1,6 +1,9 @@
 # TOTP
 This is an implementation of OTP using a TOTP algorithm
 
+## DEMO:
+<div style="text-align: center"><img src="https://i.imgur.com/lq5zHZb.gif" /></div>
+
 ## Implementation details:
 ### TOTP implementation makes use of two algorithms:
 

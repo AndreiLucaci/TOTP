@@ -21,11 +21,11 @@ namespace TOTP.Web.Controllers
 		}
 
 		[HttpGet]
-		public OTPResultViewModel Get(string userId, DateTime? utcDateTime)
+		public OTPResultViewModel Get(string userId, DateTime? dateTime)
 		{
-			var dateTime = utcDateTime ?? DateTime.UtcNow;
+			var utcDateTime = dateTime ?? DateTime.UtcNow;
 
-			var otpResult = this._otpService.GenerateOTP(userId, dateTime);
+			var otpResult = this._otpService.GenerateOTP(userId, utcDateTime);
 
 			var viewModel = this._viewModelBuilder
 				.FromOTPResult(otpResult)

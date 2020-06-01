@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using TOTP.Common.Converters;
+using TOTP.Common.Guard;
 using TOTP.Common.Models.OTPResult;
 using TOTP.Common.Models.Settings;
 using TOTP.Engine.Providers.SecretGenerator;
@@ -29,6 +30,10 @@ namespace TOTP.Engine.Services.OTP
 			IOneWayConverter<long, byte[]> hotpToByteConverter,
 			ISecretGeneratorProvider secretGeneratorProvider)
 		{
+			Guard.ArgumentNotNull(settings, nameof(settings));
+			Guard.ArgumentNotNull(hotpToByteConverter, nameof(hotpToByteConverter));
+			Guard.ArgumentNotNull(secretGeneratorProvider, nameof(secretGeneratorProvider));
+
 			this._settings = settings;
 			this._digitModulo = Convert.ToInt64(Math.Pow(10, settings.DigitLength));
 			this._hotpToByteConverter = hotpToByteConverter;
@@ -42,6 +47,8 @@ namespace TOTP.Engine.Services.OTP
 		/// <returns></returns>
 		public OTPResult GenerateOTP(string userId, DateTime? utcDateTime = null)
 		{
+			Guard.ArgumentStringNotNullOrEmpty(userId, nameof(userId));
+
 			var dateTime = utcDateTime ?? DateTime.UtcNow;
 			var secret = this._secretGeneratorProvider.GenerateSecret(userId);
 			var hotpValue = this.ComputeHOTPValue(dateTime);

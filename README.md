@@ -2,6 +2,7 @@
 This is an implementation of OTP using a TOTP algorithm
 
 ## DEMO:
+Live Demo: [http://totp.andreilucaci.ro/](http://totp.andreilucaci.ro/)
 <div style="text-align: center"><img src="https://i.imgur.com/lq5zHZb.gif" /></div>
 
 ## Implementation details:
